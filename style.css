@@ -1,0 +1,39 @@
+/* Beispiel-CSS für den Header */
+header {
+    background-color: #121212;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar {
+    background-color: #333;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  /* Beispiel-CSS für Filmkarten */
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .movie-card {
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
